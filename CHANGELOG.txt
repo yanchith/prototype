@@ -1,0 +1,82 @@
+Version: 0.2.7, 18 November 2025
+--------------------------------
+
+Levels from Dungeons and Diagrams have been removed, because could be seen as a copyright violation.
+
+Version: 0.2.6, 4 November 2025
+-------------------------------
+
+This is almost the same as 2025, but has a few things updated because of the web build.
+
+Levels in first two areas now unlock in the general direction towards the next area.
+
+Levels from Dungeons and Diagrams have been moved to their own set of areas, such that they can
+easily be disabled, if necessary.
+
+Version: 0.2.5, 14 October 2025
+-------------------------------
+
+Unless more low hanging fruit turns up, this is the last 0.2.x version. The 0.3.x versions will
+contain major new features.
+
+Added new puzzles gating access to the endgame of this prototype, as well as new endgame puzzles to
+explore some of the combinatorics of the new mechanics.
+
+A level in the first tutorial sequence had an alternative solution that enabled the player to avoid
+understanding what the level was trying to teach. This is now fixed.
+
+Fixed a minor bug where the players would not see the victory sparkles if they left and re-entered a level.
+
+Slightly tweaked area and level name text position to cater to some late game levels.
+
+Version: 0.2.4, 6 October 2025
+------------------------------
+
+Added graphics representing the wall around the dungeon board. This should hopefully better
+communicate the properties of the edge of the board.
+
+Changed visual representation of certain floating visual hint from green flashing lights to an
+abstract symbol in the top left corner. Similar to numeric constraints, this symbol is changes color
+to reflect how satisfied it is as the game board is being modified. The new version both better
+communicates what the property is, and doesn't distract the player from other visual hints.
+
+Changed visual representation of the remaining two floating visual hints. Now it should be clearer
+that they represent errors, and it should be somewhat clearer what kind of errors they represent.
+
+Version: 0.2.3, 2 October 2025
+------------------------------
+
+Made teaching puzzle sequence on first screen longer. Hopefully, this makes difficulty spikes less
+pronounced. The tutorial is still very difficult.
+
+Tweaked the early levels of the teaching sequence on the second screen to clarify some treasure
+chest properties before the player finds a level that tests them on the knowledge of those
+properties.
+
+Added unique sound for attempting to edit a read only tile. Previously, this was the denied sound,
+but that also plays when puzzle clues are not satisfied.
+
+Fixed subtle incorrect usability behavior with one frame of latency when releasing a mouse button
+and dragging the mouse, where the puzzle would still be painted on the frame the button was
+released.
+
+Changed to clear lingering visual hints on any attempt to modify the puzzle, instead of just
+successful modifications.
+
+Version: 0.2.2, 1 October 2025
+------------------------------
+
+Updated graphics to better communicate read-only tiles. Overall art ended up being slightly noisier
+and uglier, but an important aspect is now communicated in a unified way, and not that the art was
+particularly pretty before. This is all temporary art anyway, so clarity takes precedence.
+
+Changed level behavior to flash and play denied effects when click starts on read-only tiles.
+
+Version: 0.2.1, 27 September 2025
+---------------------------------
+
+The first version tracked by the changelog.
+
+Includes crest mechanics, nonverbal tutorials, new puzzles and redesigns, and many bugfixes over the
+0.1 version. Unless you believe the original animated tutorial scroll was better, 0.2 is superior
+to 0.1 in every way.

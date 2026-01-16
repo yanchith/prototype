@@ -1,0 +1,17 @@
+# Build directory
+/build
+
+# Asset build directory
+/asset_build
+
+# WASM distribution directory
+/public
+
+# macOS things
+.DS_Store
+
+# RemedyBG
+*.rdbg
+
+save_slot.txt
+game_settings.bin
